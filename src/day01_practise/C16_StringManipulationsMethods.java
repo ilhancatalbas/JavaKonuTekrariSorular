@@ -7,7 +7,7 @@ public class C16_StringManipulationsMethods {
     public static void main(String[] args) {
 
         // kullanicidan isim ve soyisim alip
-        // ismin basharfi buyut gerisi kucuk ayrica soyismin tamamini kucuk yazdiran bir method olusturun
+        // ismin basharfi buyut gerisi kucuk ayrica soyismin tamamini buyuk yazdiran bir method olusturun
 
         Scanner scan = new Scanner(System.in);
         System.out.println("bir isim giriniz");
@@ -19,7 +19,8 @@ public class C16_StringManipulationsMethods {
 
     public static void isimSoyisimDuzenleme (String isim, String soyIsim){
 
-        String yeniIsim = isim.toUpperCase().charAt(0);
+        String Yenisim = isim.toLowerCase();
+
 
     }
 }
