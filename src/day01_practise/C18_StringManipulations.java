@@ -18,9 +18,12 @@ public class C18_StringManipulations {
         String isim = scan.nextLine();
 
         if (isim.length()>=3){
-            System.out.println(isim.substring(0,2).repeat(3));
+            System.out.println(isim.substring(0,2));
+            System.out.println(isim.substring(0,2));
+            System.out.println(isim.substring(0,2));
+
         }else{
-            System.out.println(isim);   // BU OLMADI
+            System.out.println(isim);
 
         }
 
