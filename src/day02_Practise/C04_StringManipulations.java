@@ -11,6 +11,12 @@ public class C04_StringManipulations {
         String str = "   Java ogrenmek123 Cok guzel@      ";
 
 
+        String word = str.trim().replaceAll("\\d","").replace("@","");
+
+        System.out.println(word);
+
+        System.out.println(word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase());
+
 
     }
 }
