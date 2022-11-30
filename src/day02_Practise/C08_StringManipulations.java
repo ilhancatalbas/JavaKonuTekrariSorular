@@ -11,6 +11,17 @@ public class C08_StringManipulations {
         // kullanicidan 2 sayi girmesini isteyiniz
         // girilen 2 sayi ve secilen isleme gore dogru sonucu ekrana yazdiriniz
 
+        hesapMakinesi();
+
+
+
+
+
+
+    }
+
+    public static void hesapMakinesi (){
+
         Scanner scan = new Scanner(System.in);
 
         System.out.println("lutfen bir islem seciniz?  +-*/");
@@ -46,7 +57,5 @@ public class C08_StringManipulations {
                 System.out.println("uygun isareti giriniz");
 
         }
-
-
     }
 }
